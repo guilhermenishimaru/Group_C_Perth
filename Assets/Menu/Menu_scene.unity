@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 76337461}
   - component: {fileID: 76337460}
   - component: {fileID: 76337463}
+  - component: {fileID: 76337464}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -931,6 +932,26 @@ MonoBehaviour:
   m_SkinMeshRef: {fileID: 0}
   m_OriginalMeshObject: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
   m_Mode: 1
+--- !u!320 &76337464
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76337458}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 3b6d8c7f2f358264ca8259ea353a5171, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 8622518969526208230, guid: 3b6d8c7f2f358264ca8259ea353a5171, type: 2}
+    value: {fileID: 1636719136}
+  m_ExposedReferences:
+    m_References:
+    - 20bd9853f1d265644a919e79d38cf094: {fileID: 1636719135}
 --- !u!1 &100874761
 GameObject:
   m_ObjectHideFlags: 0
@@ -6987,31 +7008,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3415cca57e5c85e489d90c492caed192, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 62
+      value: 62.222656
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3415cca57e5c85e489d90c492caed192, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -128
+      value: -135
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3415cca57e5c85e489d90c492caed192, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 394
+      value: 307.8677
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3415cca57e5c85e489d90c492caed192, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9933054
+      value: 0.9892076
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3415cca57e5c85e489d90c492caed192, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.109181195
+      value: 0.10501518
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3415cca57e5c85e489d90c492caed192, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0071622906
+      value: 0.09041681
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3415cca57e5c85e489d90c492caed192, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.037049007
+      value: -0.047591727
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3415cca57e5c85e489d90c492caed192, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7019,7 +7040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3415cca57e5c85e489d90c492caed192, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -1.31
+      value: 9.961
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3415cca57e5c85e489d90c492caed192, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -19240,6 +19261,50 @@ MonoBehaviour:
   m_SkinMeshRef: {fileID: 0}
   m_OriginalMeshObject: {fileID: -7590129901460107120, guid: 4ca6ac81c03474f8fa8a9eacd60a6143, type: 3}
   m_Mode: 0
+--- !u!1 &1636719135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3415cca57e5c85e489d90c492caed192, type: 3}
+  m_PrefabInstance: {fileID: 1087114172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1636719136
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636719135}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!320 &1636719137
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636719135}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 22e5604e51d89da4180586669ec6e43d, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 6841470843251547836, guid: 22e5604e51d89da4180586669ec6e43d, type: 2}
+    value: {fileID: 1636719136}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1001 &1642972182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19339,15 +19404,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8383110070150814330, guid: f821f0949c7e8414588f3300a1649999, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 75
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8383110070150814330, guid: f821f0949c7e8414588f3300a1649999, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -77
+      value: -46
       objectReference: {fileID: 0}
     - target: {fileID: 8383110070150814330, guid: f821f0949c7e8414588f3300a1649999, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 298
+      value: 204
       objectReference: {fileID: 0}
     - target: {fileID: 8383110070150814330, guid: f821f0949c7e8414588f3300a1649999, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26583,7 +26648,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9128216963764189511, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 9128216963764189511, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
       propertyPath: m_LocalPosition.y
