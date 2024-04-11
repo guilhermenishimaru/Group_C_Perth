@@ -8,13 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Simran_Folder/Scene/Simran.unity
     guid: 63a78cb6941922240ad1ef042ef44627
-  - enabled: 1
+  - enabled: 0
     path: Assets/Menu/Menu_scene.unity
     guid: 64a6b170a7797cb489937aa464e69287
-  - enabled: 1
+  - enabled: 0
     path: Assets/Menu/Menu_scene 1.unity
     guid: c93b94c044edda3469a51fa9257bd4b8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Guilh_Folder/Guilh_scene.unity
     guid: 4254082d0470b3945bbd212170e97afb
   m_configObjects:
