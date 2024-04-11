@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Simran_Folder/Scene/Simran.unity
+    guid: 63a78cb6941922240ad1ef042ef44627
+  - enabled: 1
     path: Assets/Menu/Menu_scene.unity
     guid: 64a6b170a7797cb489937aa464e69287
   - enabled: 1
