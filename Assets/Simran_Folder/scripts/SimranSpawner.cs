@@ -10,6 +10,7 @@ public class SimranSpawner : MonoBehaviour
     List<ARRaycastHit> m_Hits = new List<ARRaycastHit>();
     [SerializeField] GameObject spawnablePrefab;
     Camera arCam;
+    public GameObject gernatedCat;
     GameObject spawnedObject;
     // Start is called before the first frame update
     void Start()
@@ -36,9 +37,13 @@ public class SimranSpawner : MonoBehaviour
                     {
                         spawnedObject = hit.collider.gameObject;
                     }
+                    //create single instance of cat
                     else
                     {
-                        SpawnPrefab(m_Hits[0].pose.position);
+                        if (gernatedCat == null)
+                        {
+                           gernatedCat= SpawnPrefab(m_Hits[0].pose.position);
+                        }
                     }
                 }
             }
@@ -53,8 +58,9 @@ public class SimranSpawner : MonoBehaviour
         }
     }
 
-    private void SpawnPrefab(Vector3 position)
+    private GameObject SpawnPrefab(Vector3 position)
     {
         spawnedObject = Instantiate(spawnablePrefab, position, Quaternion.identity);
+        return spawnedObject;
     }
 }
