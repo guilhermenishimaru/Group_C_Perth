@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.SceneManagement;
 
 public class SimranSpawner : MonoBehaviour
 {
@@ -12,6 +13,11 @@ public class SimranSpawner : MonoBehaviour
     Camera arCam;
     public GameObject gernatedCat;
     GameObject spawnedObject;
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
     // Start is called before the first frame update
     void Start()
     {
