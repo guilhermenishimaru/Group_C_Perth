@@ -9,4 +9,9 @@ public class Navscript : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+
+    public void LoadScene(string name)
+    {
+        SceneManager.LoadScene(name);
+    }
 }
