@@ -933,13 +933,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e436ab5a042044a81e537075aa97af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleSlider: {fileID: 0}
-  rotateSlider: {fileID: 0}
-  scaleMinValue: 0
-  scaleMaxValue: 0
+  scaleSlider: {fileID: 650468891}
+  rotateSlider: {fileID: 792219640}
+  scaleMinValue: 0.33
+  scaleMaxValue: 0.83
   rotMinValue: 0
-  rotMaxValue: 0
-  spawner: {fileID: 0}
+  rotMaxValue: 360
+  spawner: {fileID: 1441672786}
 --- !u!1 &957246745
 GameObject:
   m_ObjectHideFlags: 0
