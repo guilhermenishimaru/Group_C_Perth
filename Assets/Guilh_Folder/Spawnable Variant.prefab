@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2826203153122478829, guid: e4eea803f8256f34c9b9b3f683643813, type: 3}
       propertyPath: m_Name
-      value: Spawnable
+      value: Spawnable Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2826203153122478829, guid: e4eea803f8256f34c9b9b3f683643813, type: 3}
       propertyPath: m_TagString
@@ -73,3 +73,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4eea803f8256f34c9b9b3f683643813, type: 3}
+--- !u!1 &5136909654354028865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2826203153122478829, guid: e4eea803f8256f34c9b9b3f683643813, type: 3}
+  m_PrefabInstance: {fileID: 6949415784170890156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4219678832110899558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5136909654354028865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e1eabe709402f408c44f12c7eebc82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleMinValue: 0.1
+  scaleMaxValue: 0.5
+  rotMinValue: 0
+  rotMaxValue: 360
